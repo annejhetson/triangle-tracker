@@ -5,10 +5,25 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
     <script type="text/javascript" src="js/jquery-1.11.0.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
-    <title></title>
+    <title>Triangle tracker</title>
   </head>
 
   <body>
-    
+    <div class="container">
+      <h1>Triangle tracker</h1>
+      <h2>New triangle</h2>
+
+      <form id="newInput">
+        <label for="side1">Side 1</label><br />
+        <input id="side1" type="text"><br />
+        <label for="side2">Side 2</label><br />
+        <input id="side2" type="text"><br />
+        <label for="side3">Side 3</label><br />
+        <input id="side3" type="text"><br />
+        <button class="btn" type="submit">Add</button>
+      </form>
+
+      <p id="result"></p>
+    </div>
   </body>
 </html>
